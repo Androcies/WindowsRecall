@@ -3,8 +3,7 @@ An easy way to return all applications to the PC main screen.
 
 **Launch EXE → Move off-primary-monitor windows → Exit.**
 
-Run `WindowRecall.exe`. It silently recalls qualifying application windows from secondary monitors to the primary display on the **current virtual desktop**. There is no setup, UI, console, tray icon, service, configuration file, or resident shortcut listener. Ordinary applications require no administrator privileges. The EXE can be copied anywhere by itself; the Microsoft C/C++ runtime is statically linked. Ideal for use at Windows shutdown if you want to ensure all apps are on main screen on the next system bootup.
-
+Run `WindowRecall.exe`. It silently recalls qualifying application windows from secondary monitors to the primary display on the **current virtual desktop**. There is no setup, UI, console, tray icon, service, configuration file, or resident shortcut listener. Ordinary applications require no administrator privileges. The EXE can be copied anywhere by itself; the Microsoft C/C++ runtime is statically linked.
 ## Build with Visual Studio 2026
 
 Install the **Desktop development with C++** workload, MSVC **v145**, and a Windows 11 SDK. Open `WindowRecall.sln`, select **Release | x64**, then **Build Solution**. The result is `bin\x64\Release\WindowRecall.exe`.
